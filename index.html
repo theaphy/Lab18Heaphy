@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+	
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="angular-route.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="secondary.js"></script>
+	<script type="text/javascript" src="service.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-app="magicStuff">
+
+	<div id="contentBox">
+		<h1 id="boxHead">Magic Text Box</h1>
+		<p id="enter"><a href="#/type">Entrada<span ng-mouseover="hoverOne(thing)">{{message}}</span> </a></p>
+		<ng-view></ng-view>
+		<p id="display"><a href="#/show">Display</a></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+p {
+	color: gray;
+	background-color: rgba(200, 200, 200, 0.5);
+	font-size: 3em;
+}
+
+#contentBox {
+	border: 3px solid gray;
+	width: 80%;
+	margin: 50px auto;
+}
+
+#boxHead {
+	text-align: center;
+	font-size: 3em;
+	color: rgba(100, 100, 150, 0.95);
+	background-color: rgba(200, 200, 200, 0.5);
+	padding-top: 5px;
+}
+
+#enter {
+	margin-left: 40px;
+	padding-left: 10px;
+}
+
+#shower {
+	text-align: center;
+}
+
+#display {
+	text-align: right;
+	margin-right: 40px;
+	padding-right: 10px;
+}
+
+#box {
+	width: 40%;
+	border: 2px solid black;
+	display: block;
+	margin: 5px auto;
+	font-weight: bold;
+}
+
+#button {
+	width: 40%;
+	border: 2px solid black;
+	display: block;
+	background-color: white;
+	margin: 5px auto;
+	font-weight: bold;
+}
