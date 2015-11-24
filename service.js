@@ -1,3 +1,5 @@
+// Tim Heaphy
+
 var app = angular.module('magicStuff');
 
 app.factory('bigServ', function(){
